@@ -1,1 +1,48 @@
 Automatically pushes every accepted LeetCode solution to your GitHub repo, organized by difficulty — Easy, Medium, and Hard.
+
+
+# LeetSync Pro — Firefox Extension
+
+Auto-sync LeetCode accepted solutions to GitHub. No manual work needed.
+
+## Installation
+
+1. Download the ZIP from releases
+2. Extract the ZIP
+3. Open Firefox → go to `about:debugging`
+4. Click "This Firefox" → "Load Temporary Add-on"
+5. Select `manifest.json` from extracted folder
+
+## Setup
+
+1. Click ⚡ icon in Firefox toolbar
+2. Go to [github.com/settings/tokens](https://github.com/settings/tokens)
+3. Generate new token (classic) → select `repo` scope
+4. Paste token in extension popup
+5. Enter repo name (default: `leetcode-solutions`)
+6. Click "Connect GitHub"
+
+## Usage
+
+1. Open [leetcode.com](https://leetcode.com) and login
+2. Solve any problem
+3. Click Submit
+4. When "Accepted" appears → solution auto-pushes to GitHub
+5. Check your repo — file will be in `Easy/` `Medium/` or `Hard/` folder
+
+## Repo Structure
+
+```
+leetcode-solutions/
+├── Easy/
+├── Medium/
+├── Hard/
+└── README.md
+```
+
+## Requirements
+
+- Firefox browser
+- GitHub account
+- LeetCode account
+- 
